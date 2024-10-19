@@ -1,7 +1,12 @@
+import ErrorBoundary from "./components/ErrorBoundary";
+import Home from "./page/Home";
+
 function App() {
   return (
     <div>
-      <h1>init</h1>
+      <ErrorBoundary>
+        <Home />
+      </ErrorBoundary>
     </div>
   );
 }

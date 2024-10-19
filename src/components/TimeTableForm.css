@@ -1,0 +1,54 @@
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.inputContainer {
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.inputWrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.inputWrapper input {
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.addButton {
+  align-self: center;
+  color: #3f51b5;
+}
+
+.submitButton {
+  background-color: #3f51b5;
+  color: #fff;
+  margin-top: 16px;
+}
+
+.submitButton:disabled {
+  background-color: #ddd;
+  color: #888;
+}
+
+.submitButton:hover:not(:disabled) {
+  background-color: #2c3a9e;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 8px;
+}
