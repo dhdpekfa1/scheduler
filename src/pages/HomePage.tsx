@@ -81,10 +81,10 @@ const HomePage = () => {
                 />
               </div>
 
-              <div className='bg-[#f2f6f7] rounded-t-xl p-6 flex flex-col gap-8'>
+              <div className='bg-four rounded-t-xl p-6 flex flex-col gap-8'>
                 {/* 동적 과목 필드 */}
                 <div className='flex flex-col gap-2'>
-                  <FormLabel className='text-sm md:text-xl text-three'>
+                  <FormLabel className='text-sm md:text-xl text-ef'>
                     학습 중인 과목
                   </FormLabel>
                   {fields.map((field, index) => (
@@ -133,13 +133,13 @@ const HomePage = () => {
                   name='description'
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel className='text-sm md:text-xl text-three'>
+                      <FormLabel className='text-sm md:text-xl text-ef'>
                         추가 설명{' '}
                         <span className='text-neutral-400'>[선택]</span>
                       </FormLabel>
                       <FormControl>
                         <Textarea
-                          className='text-xs md:text-base'
+                          className='text-xs md:text-base h-40 md:h-64'
                           placeholder='현재 준비하고 계신 부분이나 학습 중인 부분을 자세하게 작성해주시면 분석에 도움됩니다. '
                           {...field}
                         />
@@ -151,7 +151,7 @@ const HomePage = () => {
                 />
               </div>
 
-              <div className='flex items-center justify-center bg-[#f2f6f7]'>
+              <div className='flex items-center justify-center bg-four'>
                 <Button
                   className='bg-blue hover:bg-green w-2/3 md:w-1/2 lg:w-1/3 text-sm md:text-base text-four'
                   type='submit'
