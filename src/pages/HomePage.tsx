@@ -62,7 +62,7 @@ const HomePage = () => {
                   name='goal'
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel className='text-sm md:text-xl text-ef'>
+                      <FormLabel className='text-base md:text-xl text-ef'>
                         최종 목표
                       </FormLabel>
                       <FormControl>
